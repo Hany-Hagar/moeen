@@ -41,6 +41,7 @@ dev_dependencies:
 
   rename: ^3.1.0
   flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.7
   flutter_launcher_icons: ^0.14.4
 
 
@@ -76,3 +77,14 @@ flutter_launcher_icons:
   macos:
     generate: true
     image_path: "assets/images/appLogo.png"
+
+flutter_native_splash:
+  background_image: "assets/images/native_splash_background.png"
+  
+  android: true
+  android_12:
+    background_image: "assets/images/native_splash_background.png"
+    
+  ios: true
+  web: true  
+  fullscreen: true
