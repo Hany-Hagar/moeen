@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../services/shared_preferences_services.dart';
 
-class SettingsCubit extends Cubit<void> {
+class CoreSettingsCubit extends Cubit<void> {
   final SharedPreferencesService _pref;
 
-  SettingsCubit(this._pref) : super(null);
+  CoreSettingsCubit(this._pref) : super(null);
 
   // ===== Keys =====
   static const _themeKey = 'theme_mode';
